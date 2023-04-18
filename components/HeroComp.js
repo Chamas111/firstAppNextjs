@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroComp(props) {
   return (
     <div className="bg-white">
