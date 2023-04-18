@@ -17,7 +17,7 @@ export default function Error() {
           >
             Go back home
           </Link>
-          <Link href="#" class="text-sm font-semibold text-gray-900">
+          <Link href="/" class="text-sm font-semibold text-gray-900">
             Contact support <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
