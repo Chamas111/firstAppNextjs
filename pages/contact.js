@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Contact() {
   return (
     <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -163,9 +164,9 @@ export default function Contact() {
             </div>
             <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
               By selecting this, you agree to our
-              <a href="#" class="font-semibold text-indigo-600">
+              <Link href="/" class="font-semibold text-indigo-600">
                 privacy&nbsp;policy
-              </a>
+              </Link>
               .
             </label>
           </div>
